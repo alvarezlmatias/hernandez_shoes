@@ -1,4 +1,4 @@
-/*
+
 confirm("Al ingresar a esta página, aceptas los términos y condiciones de Hernández Shoes");
 
 let nombre = prompt("Por favor, ingresa tu nombre");
@@ -7,30 +7,35 @@ function saludar(nombre){
 
     if (nombre === ""){
         prompt("Por favor, ingresa tu nombre");
-    } 
-    
-    else {
+    } else {
         alert("Bienvenid@, " + nombre);
-    }
+    };
 };
 
 saludar(nombre);
 
-
-let selección = confirm("¿Deseas conocer nuestros productos en oferta?");
-
-function elegir(selección) {
-
-    if (selección === true) {
-        alert("Nuestros productos del mes con descuento son " + productos.descuento === true);
-    }
-    else if (selección === false) {
-        alert("Te invitamos a conocer nuestra nueva línea de calzado");
-    }
+function calcularCostoEnvio() {
+    let distancia = prompt("Para conocer el costo de envío de nuestros productos, indica la distancia a la que vives (en kilómetros)");
+    
+    if (distancia === "") {
+            alert("Ingresa un número válido");
+        } else if (distancia <= 25) {
+            alert ("El envío es gratis");
+        } else if (distancia > 25 && distancia <= 50) {
+            alert("El envío cuesta 3000 pesos");
+        } else if (distancia > 50 && distancia <= 75) {
+            alert("El envío cuesta 5000 pesos");
+        } else if (distancia > 75 && distancia <= 100) {
+            alert("El envío cuesta 7500 pesos");
+    } else {
+        alert("No realizamos envíos a tanta distancia");
+    };
 };
 
-elegir(selección);
-*/
+calcularCostoEnvio();
+
+
+let opción = confirm("¿Deseas conocer los precios y los talles de nuestros productos?");
 
 const productos = [
     productoMujer1 = {
@@ -93,8 +98,37 @@ const productos = [
         talles: "37 al 40",
         descuento: false
     },
-]
+];
 
-for(let i=0; i< productos.length; i++) {
-    console.log(productos[i].nombre + " cuestan " + productos[i].precio + " y están disponibles en los talles " + productos[i].talles)
-}
+function elegir(opción) {
+
+    if (opción === true) {
+        for(let i=0; i< productos.length; i++) {
+        console.log(productos[i].nombre + " cuestan $" + productos[i].precio + " y están disponibles en los talles " + productos[i].talles)
+        };
+    } else if (opción === false) {
+        alert("Te invitamos a conocer nuestra nueva línea de calzado");
+    };
+};
+
+elegir(opción);
+
+
+
+
+
+/*
+let selección = confirm("¿Deseas conocer nuestros productos en oferta?");
+
+function elegir(selección) {
+
+    if (selección === true) {
+        alert("Nuestros productos del mes con descuento son " + productos.descuento === true);
+    }
+    else if (selección === false) {
+        alert("Te invitamos a conocer nuestra nueva línea de calzado");
+    }
+};
+
+elegir(selección);
+*/
