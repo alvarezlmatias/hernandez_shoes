@@ -5,7 +5,7 @@ let nombre = prompt("Por favor, ingresa tu nombre");
 
 function saludar(nombre){
 
-    if (nombre === ""){
+if (nombre === "") {
         prompt("Por favor, ingresa tu nombre");
     } else {
         alert("Bienvenid@, " + nombre);
@@ -107,28 +107,8 @@ function elegir(opción) {
         console.log(productos[i].nombre + " cuestan $" + productos[i].precio + " y están disponibles en los talles " + productos[i].talles)
         };
     } else if (opción === false) {
-        alert("Te invitamos a conocer nuestra nueva línea de calzado");
+        alert("Gracias por visitar la página de Hernández Shoes");
     };
 };
 
 elegir(opción);
-
-
-
-
-
-/*
-let selección = confirm("¿Deseas conocer nuestros productos en oferta?");
-
-function elegir(selección) {
-
-    if (selección === true) {
-        alert("Nuestros productos del mes con descuento son " + productos.descuento === true);
-    }
-    else if (selección === false) {
-        alert("Te invitamos a conocer nuestra nueva línea de calzado");
-    }
-};
-
-elegir(selección);
-*/
