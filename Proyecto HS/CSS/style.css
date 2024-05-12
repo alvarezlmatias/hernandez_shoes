@@ -130,7 +130,7 @@
 
 /***Formulario Login***/
 
-.formulario.landing-page {
+.f-landing-page {
     margin-bottom: 50px;
     line-height: 15px;
     padding: 20px;
@@ -155,18 +155,16 @@
 
 .boton-form {
     margin-top: 10px;
-    width: 100px;
+    margin-left: 185px;
+    width: 180px;
     height: 50px;
     font-size: large;
     border: solid 3px rgb(214, 214, 214);
 }
 
-.b1 {
-    margin-left: 120px;
-}
-
 .b1.bis{
-    width: 110px;
+    width: 150px;
+    margin-left: 210px;
 }
 
 .b2 {
@@ -208,84 +206,6 @@
 /***Fin de Slider Marcas***/
 
 /*FIN DE PÁGINA DE INICIO*/
-
-/*PÁGINA CONTACTO*/
-
-/***Mapa***/
-
-.mapa {
-    width: 550px;
-    height: 450px;
-    border-style: dotted;
-    border-color: #a1aba6;
-    border-width: 3px;
-    margin-top: -15px;
-    margin-left: 400px;
-    margin-bottom: 40px;
-}
-
-/***Fin de Mapa***/
-
-/***Carrito de compras***/
-
-.b3, .b4 {
-    margin-top: 10px;
-    width: 160px;
-    height: 50px;
-    font-size: large;
-    border: solid 3px rgb(214, 214, 214);
-}
-
-.b3 {
-    margin-left: 90px;
-}
-
-.b4 {
-    margin-left: 40px;
-}
-/***Fin de Carrito de compras***/
-
-/***Formulario Consultas***/
-
-.formulario {
-    margin-top: -15px;
-    margin-bottom: 50px;
-    line-height: 15px;
-    padding: 20px;
-    border-radius: 30px;
-    background-color: #919191;
-    width: 600px;
-    border: solid 5px rgb(56, 54, 54);
-}
-
-.form {
-    display: grid;
-    place-items: center;
-}
-
-.checkbox {
-    margin-top: 5px;
-}
-
-.boton-form {
-    margin-top: 10px;
-    width: 100px;
-    height: 50px;
-    font-size: large;
-    border: solid 3px rgb(214, 214, 214);
-}
-
-.b1 {
-    margin-left: 120px;
-}
-
-.b2 {
-    margin-left: 110px;
-}
-
-/***Fin de Formulario Consultas***/
-
-/*FIN DE PÁGINA CONTACTO*/
 
 /* FOOTER */
 
