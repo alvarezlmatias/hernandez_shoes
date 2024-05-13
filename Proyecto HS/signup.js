@@ -8,6 +8,7 @@ signupForm.addEventListener("submit", (e) => {
 
     const Users = JSON.parse(localStorage.getItem("users")) || [];
     const isUserRegistered = Users.find(user => user.email === email);
+
     if(isUserRegistered){
         return alert("El usuario ya se encuentra registrado")
     };
@@ -16,4 +17,5 @@ signupForm.addEventListener("submit", (e) => {
     localStorage.setItem("users", JSON.stringify(Users));
     alert("Te has registrado con éxito");
     window.location.href = "pages/login.html";
-})
+    }
+);
