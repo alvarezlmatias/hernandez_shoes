@@ -21,7 +21,7 @@
     font-variant: small-caps;
     font-size:xx-large;
     font-weight: bolder;
-    margin-top: 30px;
+    margin-top: 80px;
     margin-bottom: 30px;
 }
 
@@ -72,7 +72,7 @@
     align-items: center !important;
     justify-content: center !important;
     align-content: center;
-    margin: 3px;
+    margin-left: 30px;
 }
 
 .custom-header .nav-link:hover, .custom-header .nav-link.active:hover {
@@ -100,7 +100,7 @@
 
 /*FIN DE ELEMENTOS COMUNES DEL MAIN*/
 
-/*LANDING PAGE*/
+/*LANDING PAGE - INDEX*/
 
 /***Carrusel***/
 
@@ -162,6 +162,11 @@
     border: solid 3px rgb(214, 214, 214);
 }
 
+.boton-form.login {
+    width: 200px;
+    height: 50px;
+}
+
 .b1.bis{
     width: 150px;
     margin-left: 210px;
@@ -177,35 +182,282 @@
 
 /***Fin de Formulario Login***/
 
-/*FIN DE LANDING PAGE*/
+/*FIN DE LANDING PAGE - INDEX*/
 
-/*PÁGINA INICIO*/
+/*PÁGINA CALZADOS DEPORTIVOS*/
 
-/***Video presentación***/
+/***Cards***/
 
-.video-presentacion {
-    width: 60%;
-    height: 450px;
-    margin-left: 270px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    border-radius: 60px;
+.contenedor-prod {
+    margin: 25px;
 }
 
-/***Fin de Video presentación***/
+.imagen-producto {
+    margin: 20px;
+    width: 200px !important;
+    height: 150px !important;
+    border-radius: 30px;
+    border: 1px solid rgb(175, 175, 175);
+}
 
-/***Slider Marcas***/
+.imagen-producto:hover {
+    transform: scale(1.1);
+}
 
-.logos-marcas {
+.información {
+    color: rgb(190, 190, 190);
+    height: 160px;
     display: flex;
-    align-items: center;
     justify-content: center;
-    margin-left: -150px;
+    align-items: center;
+    flex-direction: column;
 }
 
-/***Fin de Slider Marcas***/
+.nombre-producto{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    margin-top: -50px;
+}
 
-/*FIN DE PÁGINA DE INICIO*/
+.pr {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 90px;
+}
+
+.agregar-carrito {
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: 40px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: -20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.agregar-carrito:hover{
+    color: #d1ba05;
+}
+
+.precio.calzado {
+    margin-left: 70px;
+    margin-top: -70px;
+}
+
+.card {
+    text-align: center;
+    border: 1px solid #c0c0c0;
+    background: rgb(157, 154, 154);
+    border-radius: 30px;
+}
+
+.card:hover {
+    background-color:rgb(128, 70, 70);
+}
+
+/***Fin de Cards***/
+
+.container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box; 
+}
+
+.column, .columns {
+    width: 100%;
+    float: left;
+}
+
+@media (min-width: 550px) {
+    .container {
+        width: 80%; }
+    .column,
+    .columns {
+        margin-left: 4%; }
+    .column:first-child,
+    .columns:first-child {
+        margin-left: 0; }
+    .one.column,
+    .one.columns                    { width: 4.66666666667%; }
+    .two.columns                    { width: 13.3333333333%; }
+    .three.columns                  { width: 22%;            }
+    .four.columns                   { width: 30.6666666667%; }
+    .five.columns                   { width: 39.3333333333%; }
+    .six.columns                    { width: 48%;            }
+    .seven.columns                  { width: 56.6666666667%; }
+    .eight.columns                  { width: 65.3333333333%; }
+    .nine.columns                   { width: 74.0%;          }
+    .ten.columns                    { width: 82.6666666667%; }
+    .eleven.columns                 { width: 91.3333333333%; }
+    .twelve.columns                 { width: 100%; margin-left: 0; }
+    .one-third.column               { width: 30.6666666667%; }
+    .two-thirds.column              { width: 65.3333333333%; }
+    .one-half.column                { width: 48%; }
+    .offset-by-one.column,
+    .offset-by-one.columns          { margin-left: 8.66666666667%; }
+    .offset-by-two.column,
+    .offset-by-two.columns          { margin-left: 17.3333333333%; }
+    .offset-by-three.column,
+    .offset-by-three.columns        { margin-left: 26%;            }
+    .offset-by-four.column,
+    .offset-by-four.columns         { margin-left: 34.6666666667%; }
+    .offset-by-five.column,
+    .offset-by-five.columns         { margin-left: 43.3333333333%; }
+    .offset-by-six.column,
+    .offset-by-six.columns          { margin-left: 52%;            }
+    .offset-by-seven.column,
+    .offset-by-seven.columns        { margin-left: 60.6666666667%; }
+    .offset-by-eight.column,
+    .offset-by-eight.columns        { margin-left: 69.3333333333%; }
+    .offset-by-nine.column,
+    .offset-by-nine.columns         { margin-left: 78.0%;          }
+    .offset-by-ten.column,
+    .offset-by-ten.columns          { margin-left: 86.6666666667%; }
+    .offset-by-eleven.column,
+    .offset-by-eleven.columns       { margin-left: 95.3333333333%; }
+    .offset-by-one-third.column,
+    .offset-by-one-third.columns    { margin-left: 34.6666666667%; }
+    .offset-by-two-thirds.column,
+    .offset-by-two-thirds.columns   { margin-left: 69.3333333333%; }
+    .offset-by-one-half.column,
+    .offset-by-one-half.columns     { margin-left: 52%; }
+}
+
+/***Carrito de compras***/
+
+table th {
+    text-align: center;
+    font-size: large;
+    color: rgb(97, 92, 92);
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+ul {
+    list-style: none;
+}
+
+.button.u-full-width.vaciar {
+    color: rgb(205, 31, 31);
+}
+
+.submenu {
+    position: relative;
+}
+
+.submenu #carrito{
+    display: none;
+    text-align: center;
+}
+
+.submenu:hover #carrito{
+    display: block;
+    position: absolute;
+    right:0;
+    top:100%;
+    z-index: 1;
+    background-color: white;
+    padding: 20px;
+    min-height: 400px;
+    min-width: 300px;
+}
+
+#lista-productos .row {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.agregar-carrito {
+    margin: 10px 0;
+}
+
+p {
+    margin-top: 0; 
+}
+
+.button {
+    display: inline-block;
+    height: 30px;
+    padding: 0 30px;
+    color: #454343;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 38px;
+    text-decoration: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+ol, ul {
+    padding-left: 0;
+    margin-top: 0; 
+}
+
+ul ul, ul ol, ol ol, ol ul {
+    margin: 1.5rem 0 1.5rem 3rem;
+    font-size: 50%; 
+}
+
+li {
+    margin-bottom: 1rem; 
+}
+
+th,td {
+    padding: 12px 15px;
+    text-align: center;
+    font-size: 15px;
+    border-bottom: 1px solid #E1E1E1; 
+}
+
+button {
+    margin-bottom: 1rem; 
+}
+
+.u-full-width {
+    width: 100%;
+    box-sizing: border-box; 
+}
+
+.u-max-full-width {
+    max-width: 100%;
+    box-sizing: border-box; 
+}
+
+.u-pull-right {
+    float: right; 
+}
+
+.u-pull-left {
+    float: left; 
+}
+
+hr {
+    margin-top: 3rem;
+    margin-bottom: 3.5rem;
+    border-width: 0;
+    border-top: 1px solid #E1E1E1; 
+}
+
+.container:after, .row:after, .u-cf {
+    content: "";
+    display: table;
+    clear: both; 
+}
+
+/***Fin de Carrito de compras***/
+
+/*FIN DE PÁGINA CALZADOS DEPORTIVOS*/
 
 /* FOOTER */
 
