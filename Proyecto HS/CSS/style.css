@@ -77,12 +77,16 @@ color: #5e5e5e;
     align-items: center !important;
     justify-content: center !important;
     align-content: center;
-    margin-left: 30px;
+    margin-left: 30x;
 }
 
 .custom-header .nav-link:hover, .custom-header .nav-link.active:hover {
     color: #dfd93a !important;
     border-bottom: 2px !important;
+}
+
+.carritoCompras {
+    margin: 10px;
 }
 
 /* FIN DE HEADER */
@@ -163,6 +167,12 @@ form div input {
     background-color: #b8b43e;
 }
 
+.boton-form.logout {
+    margin-left: 570px;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
 .b1.bis{
     width: 150px;
     margin-left: 200px;
@@ -180,6 +190,7 @@ form div input {
 
 /*FIN DE PÁGINA LOGIN*/
 
+<<<<<<< HEAD
 /* INDEX */
 
 /***Carrusel***/
@@ -274,6 +285,8 @@ font-size: larger;
 
 /* FIN DE INDEX */
 
+=======
+>>>>>>> 4c725802e56e4a3bff8208662bd8ad6ec697cef6
 /* FOOTER */
 
 footer {
