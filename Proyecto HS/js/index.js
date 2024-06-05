@@ -32,9 +32,9 @@ const data = [
     },
     {
         id: 5,
-        nombre: 'Zapatillas Hush Puppies rojas hombre',
+        nombre: 'Zapatillas HP rojas hombre',
         precio: 65000,
-        descripcion: 'Zapatillas Hush Puppies rojas hombre',
+        descripcion: 'Zapatillas HP rojas hombre',
         imagen: 'img/ph17.jpg'
     },
     {
@@ -53,9 +53,9 @@ const data = [
     },
     {
         id: 8,
-        nombre: 'Zapatillas Hush Puppies Gold mujer',
+        nombre: 'Zapatillas HP Gold mujer',
         precio: 50000,
-        descripcion: 'Zapatillas Hush Puppies Gold mujer',
+        descripcion: 'Zapatillas HP Gold mujer',
         imagen: 'img/pm14.jpg'
     },
     {
