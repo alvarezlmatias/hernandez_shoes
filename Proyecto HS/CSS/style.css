@@ -162,8 +162,8 @@ form div input {
 }
 
 .boton-form.logout {
-    margin-left: 870px;
-    margin-top: -3900px;
+    margin-left: 870px !important;
+    margin-top: -3800px !important;
     background-color: #b8b43e;
 }
 
