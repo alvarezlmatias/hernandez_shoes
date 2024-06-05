@@ -1,0 +1,107 @@
+[
+    {
+        "id": 1,
+        "nombre": "Zapatillas Vans rojas hombre",
+        "precio": 60.000,
+        "descripcion": "Zapatillas Vans rojas hombre",
+        "imagen": "img/ph13.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Zapatillas Vans celestes hombre",
+        "precio": 60.000,
+        "descripcion": "Zapatillas Van celestes hombre",
+        "imagen": "img/ph14.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Zapatillas Cat marrones hombre",
+        "precio": 75.000,
+        "descripcion": "Zapatillas Cat marrones hombre",
+        "imagen": "img/ph15.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Botitas Vans celestes hombre",
+        "precio": 80.000,
+        "descripcion": "Botitas Vans celestes hombre",
+        "imagen": "img/ph16.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "Zapatillas Hush Puppies rojas hombre",
+        "precio": 65.000,
+        "descripcion": "Zapatillas Hush Puppies rojas hombre",
+        "imagen": "img/ph17.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "Zapatillas negras básicas hombre",
+        "precio": 40.000,
+        "descripcion": "Zapatillas negras básicas hombre",
+        "imagen": "img/ph18.jpg"
+    },
+    {
+        "id": 7,
+        "nombre": "Zapatillas Asics blancas mujer",
+        "precio": 40.000,
+        "descripcion": "Zapatillas Asics blancas mujer",
+        "imagen": "img/pm13.jpg"
+    },
+    {
+        "id": 8,
+        "nombre": "Zapatillas Hush Puppies Gold mujer",
+        "precio": 50.000,
+        "descripcion": "Zapatillas Hush Puppies Gold mujer",
+        "imagen": "img/pm14.jpg"
+    },
+    {
+        "id": 9,
+        "nombre": "Zapatillas Vans rosa oscuro mujer",
+        "precio": 50.000,
+        "descripcion": "Zapatillas Vans rosa oscuro mujer",
+        "imagen": "img/pm15.jpg"
+    },
+    {
+        "id": 10,
+        "nombre": "Botitas Asics beige mujer",
+        "precio": 60.000,
+        "descripcion": "Botitas Asics beige mujer",
+        "imagen": "img/pm16.jpg"
+    },
+    {
+        "id": 11,
+        "nombre": "Zapatillas Vans rosas mujer",
+        "precio": 50.000,
+        "descripcion": "Zapatillas Vans rosas mujer",
+        "imagen": "img/pm17.jpg"
+    },
+    {
+        "id": 12,
+        "nombre": "Zapatillas Nike Rainbow mujer",
+        "precio": 55.000,
+        "descripcion": "Zapatillas Nike Rainbow mujer",
+        "imagen": "img/pm18.jpg"
+    },
+    {
+        "id": 13,
+        "nombre": "Zapatillas Cat azul hombre",
+        "precio": 50.000,
+        "descripcion": "Zapatillas Cat azul hombre",
+        "imagen": "img/ph21.jpg"
+    },
+    {
+        "id": 14,
+        "nombre": "Zapatillas lona celeste hombre",
+        "precio": 40.000,
+        "descripcion": "Zapatillas lona celeste hombre",
+        "imagen": "img/ph22.jpg"
+    },
+    {
+        "id": 15,
+        "nombre": "Zapatillas lona gris hombre",
+        "precio": 40.000,
+        "descripcion": "Zapatillas lona gris hombre",
+        "imagen": "img/ph23.jpg"
+    }
+]

@@ -2,16 +2,16 @@
 <html lang="es">
 <!--COMIENZO DEL HEAD-->
     <head>
-        <title>Nuestros productos - Hernández Shoes</title>
+        <title>Registro - Hernández Shoes</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="Matías Álvarez Lutereau">
         <meta name="copyright" content="HS S.A.">
-        <link rel="shortcut icon" href="./img/Favicon.png" type="Favicon">
-<!-- Bootstrap-->
+        <link rel="shortcut icon" href="../img/Favicon.png" type="Favicon">
+<!--Bootstrap-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-<!-- CSS-->
-        <link rel="stylesheet" href="./css/style.css">
+<!--CSS-->
+        <link rel="stylesheet" href="../css/style.css">
     </head>
 <!--FIN DEL HEAD-->
 <!--COMIENZO DEL BODY-->
@@ -23,7 +23,7 @@
                 <div class="container-fluid">
                     <div class="row p-5 pb-4 text-white"></div>
                         <!-- Logo header -->
-                        <a href="index.html"><img class="Logo" src="./img/Logo.png" alt="Logo HS"></a>
+                        <a href="signup.html"><img class="Logo" src="../img/Logo.png" alt="Logo HS"></a>
                         <!-- Fin de Logo header -->
                         <!-- Navbar-toggler -->
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -46,17 +46,16 @@
 <!--FIN DEL HEADER-->
 <!--COMIENZO DEL MAIN-->
         <main>
-            <!-- Carrusel -->
             <div id="carouselExampleFade" class="slider carousel slide carousel-fade">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="./img/Calzado1.png" class="d-block w-100" alt="Carrusel Imagen 1">
+                        <img src="../img/Calzado1.png" class="d-block w-100" alt="Carrusel Imagen 1">
                     </div>
                     <div class="carousel-item">
-                        <img src="./img/Calzado2.png" class="d-block w-100" alt="Carrusel Imagen 2">
+                        <img src="../img/Calzado2.png" class="d-block w-100" alt="Carrusel Imagen 2">
                     </div>
                     <div class="carousel-item">
-                        <img src="./img/Calzado3.png" class="d-block w-100" alt="Carrusel Imagen 3">
+                        <img src="../img/Calzado3.png" class="d-block w-100" alt="Carrusel Imagen 3">
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -68,73 +67,63 @@
                     </button>
                 </div>
             </div>
-            <!-- Fin de Carrusel-->
-            <!-- Título principal-->
             <div>
-                <h1 class="titulo-seccion">
-                    Nuestros productos
+                <h1 class="titulo-seccion signup">
+                    Registrarse
                 </h1>
             </div>
-            <!-- Fin de Título principal-->
-            <!-- Contenedor general dentro del main-->
-            <div class="container">
-                <div class="row">
-                    <!-- Elementos generados a partir del JSON -->
-                    <main id="items" class="col-sm-9 row"></main>
-                    <!-- Fin de Elementos generados a partir del JSON-->
-                    <!-- Carrito -->
-                    <aside class="col-sm-3">
-                        <h2 class="titulo-carrito">Mi carrito</h2>
-                        <!-- Elementos del carrito -->
-                        <ul id="carrito" class="list-group"></ul>
-                        <hr>
-                        <!-- Precio total -->
-                        <p class="text-right">Total: <span id="total"></span>$</p>
-                        <button id="boton-vaciar" class="btn btn-dark">Vaciar el carrito</button>
-                        <!-- Fin de Elementos del carrito-->
-                    </aside>
-                    <aside>
-                        <div>
-                            <button class="btn btn-dark boton-form logout" id="logout">Cerrar sesión</button>
-                        </div>
-                    </aside>
-                    <!-- Fin de Carrito-->
-                </div>
+            <div class="form" action="">
+                <form class="f-landing-page" id="signupForm">
+                    <div>
+                        <label for="name">Ingresá tu nombre de usuario</label>
+                        <input type="name" class="form-control" id="name" required autofocus>
+                    </div>
+                    <div>
+                        <label for="email">Ingresá tu correo electrónico</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <div>
+                        <label for="password">Ingresá tu contraseña</label>
+                        <input type="password" class="form-control" id="password" required>
+                    </div>
+                    <div>
+                        <button type="submit" value="Registro" class="btn btn-dark boton-form b1 bis">Registrarse</button>
+                    </div>
+                </form>
+                <p class="leyenda-registro">¿Ya tienes cuenta de usuario en nuestro sitio? <a href="./login.html">Iniciar sesión</a></p>
             </div>
-            <!-- Fin de Contenedor general dentro del main-->
         <main>
 <!--FIN DEL MAIN-->
 <!--COMIENZO DEL FOOTER-->
         <footer class="footer">
-            <div class="container-fluid">
-                <div class="row p-5 pb-4 text-white">
-                    <!-- Logo y textos footer -->
-                    <div class="col-xs-12 col sm-12 col-md-6 col-lg-6 text-center align-items-center">
-                        <a href="index.html">
-                            <img class="logo-footer" src="./img/Logo.png" alt="Logo HS">
-                        </a>
-                        <p class="text-white text-center copyright">Copyright &#169 2024</p>
+                <div class="container-fluid">
+                    <div class="row p-5 pb-4 text-white">
+                        <!-- Logo y textos footer -->
+                        <div class="col-xs-12 col sm-12 col-md-6 col-lg-6 text-center align-items-center">
+                            <a href="signup.html">
+                                <img class="logo-footer" src="../img/Logo.png" alt="Logo HS">
+                            </a>
+                            <p class="text-white text-center copyright">Copyright &#169 2024</p>
+                        </div>
+                        <!-- Fin de Logo y textos footer -->
+                        <!-- Sección Redes footer -->
+                        <ul class="col-xs-12 col sm-12 col-md-6 col-lg-6 text-center">
+                            <p class="h5 mt-5 mb-3 texto-footer">Nuestras redes</p>
+                                <a href="https://twitter.com" target="_blank"><img src="../img/Twitter.png" alt="Ícono de Twitter"></a>
+                                <a href="https://instagram.com" target="_blank"><img src="../img/Instagram.png" alt="Ícono de Instagram"></a>
+                                <a href="https://facebook.com" target="_blank"><img src="../img/Facebook.png" alt="Ícono de Facebook"></a>
+                        </ul>
+                        <!-- Fin de Sección Redes footer -->
                     </div>
-                    <!-- Fin de Logo y textos footer -->
-                    <!-- Sección Redes footer -->
-                    <ul class="col-xs-12 col sm-12 col-md-6 col-lg-6 text-center">
-                        <p class="h5 mt-5 mb-3 texto-footer">Nuestras redes</p>
-                            <a href="https://twitter.com" target="_blank"><img src="./img/Twitter.png" alt="Ícono de Twitter"></a>
-                            <a href="https://instagram.com" target="_blank"><img src="./img/Instagram.png" alt="Ícono de Instagram"></a>
-                            <a href="https://facebook.com" target="_blank"><img src="./img/Facebook.png" alt="Ícono de Facebook"></a>
-                    </ul>
-                    <!-- Fin de Sección Redes footer -->
                 </div>
-            </div>
         </footer>
 <!--FIN DEL FOOTER-->
 <!--Bootstrap-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-<!--Sweet Alert-->
+<!-- Sweet Alert-->
         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <!--JS-->
-        <script src="./js/index.js"></script>
-        <script src="./js/logout.js"></script>
+        <script src="../js/signup.js"></script>
     </body>
 <!--FIN DEL BODY-->
 </html>
