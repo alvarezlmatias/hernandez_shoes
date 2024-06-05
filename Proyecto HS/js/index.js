@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 document.addEventListener('DOMContentLoaded', () => {
 
 // Variables
@@ -284,24 +283,4 @@ DOMbotonVaciar.addEventListener('click', vaciarCarrito);
 cargarCarritoDeLocalStorage();
 renderizarProductos();
 renderizarCarrito();
-=======
-const user = JSON.parse(localStorage.getItem('login_success')) || false;
-if(!user){
-    window.location.href = '../pages/login.html'
-};
-
-const logout = document.querySelector('#logout');
-
-logout.addEventListener('click', ()=>{
-    Swal.fire({
-        title: '¡Hasta la próxima!',
-        text: 'Gracias por visitar nuestro sitio',
-        icon: 'success',
-        iconColor: 'green',
-        confirmButtonText: 'Cerrar sesión'
-    }).then((result)=>{
-        window.location.href = './pages/login.html';
-        localStorage.removeItem('login_success')
-    });
->>>>>>> 4c725802e56e4a3bff8208662bd8ad6ec697cef6
 })
